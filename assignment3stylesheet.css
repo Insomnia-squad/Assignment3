@@ -15,7 +15,7 @@ ul {
   width: 100%;
   height: auto;
   color: black;
-  background-image: url("https://cdn.discordapp.com/attachments/574913739057528833/715126219154391120/funny-duck-260nw-560798939.jpg");
+  background-image: url("https://cdn.discordapp.com/attachments/574913739057528833/705715269833719858/pattern.jpg");
 }
 
 .footer {
@@ -27,8 +27,8 @@ ul {
 }
 
 body {
-  background-color: #2d345d;
-  color: white;
+  background-color: #fee4bf;
+  color: black;
 }
 
 list {
@@ -46,7 +46,8 @@ list a,
 
 list a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #e55e41;
+  background-color: #f57e78;
+  color: white;
 }
 
 list.dropdown {
@@ -56,7 +57,7 @@ list.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: #272b32;
   min-width: 160px;
   box-shadow: 0pt 8pt 16pt 0pt rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -71,7 +72,7 @@ list.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: #332323;
+  background-color: #383e47;
 }
 
 .dropdown:hover .dropdown-content {
@@ -79,7 +80,8 @@ list.dropdown {
 }
 
 .active {
-  background-color: #c05139;
+  background-color: #fee4bf;
+  color: black;
   box-shadow: 0pt 8pt 16pt 0pt rgba(0, 0, 0, 0.2);
 }
 
