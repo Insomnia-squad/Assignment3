@@ -1,0 +1,209 @@
+/*UNIVERSAL THINGS GO ON TOP, then specific to your pages go in the titled sections :D*/
+/*The universal area here is just to keep our websites consistent*/
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #2B2B29;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
+header {
+    width: 100%;
+    padding: 5px;
+    color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/696928792916131910/716275699991969923/pattern.png");
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+nav {
+    background: #2B2B29;
+    color: white;
+    overflow: hidden;
+    border-radius: 5px; /*This gives containers the cool, smooth rounded effect*/
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    background: #2B2B29;
+    padding: 15px 50px;
+    display: block;
+}
+
+
+
+nav li a:hover {
+    background: #EDF3F2;
+    color: black;
+    border-radius: 5px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B29;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+/* DROPDOWN FOR DETAILED DESCRIPTION -----------------------------------------*/
+
+/*The dropdown box positioning*/
+.dropdown {
+    background-color: #EDF3F2;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/*Hiding the dropdown box as default*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EDF3F2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/*The actual dropdown box/list*/
+.dropdown-content ul {
+    position: absolute;
+    padding: 10px;
+    background-color: #EDF3F2;
+    border-radius: 5px;
+}
+
+/*The individual contents within the dropdown*/
+.dropdown-content ul a {
+    color: black;
+    background-color: #EDF3F2;
+    border-radius: 5px;
+
+}
+
+/*Each time a word is hovered over in the dropdown*/
+.dropdown-content a:hover {
+    background-color: #2B2B29;
+    border-radius: 5px;
+    color: white;
+}
+
+/*The dropdown box when hovered over*/
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #EDF3F2;
+    color: white;
+}
+/* HEADER + NAV BAR END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* TEAM PROFILE START --------------------------------------------------------------------------------------------------------*/
+
+/* TEAM PROFILE END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* TOOLS START --------------------------------------------------------------------------------------------------------*/
+
+/* TOOLS END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* PROJECT DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
+
+/* PROJECT DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* PROJECT IDEAS START --------------------------------------------------------------------------------------------------------*/
+
+/* PROJECT IDEAS END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* OVERVIEW START --------------------------------------------------------------------------------------------------------*/
+
+/* OVERVIEW END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* DETAILED DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
+.detScript h2, .detScript h3, .detScript ul {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.detScript ul {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.detScript li {
+    padding-left:  25%;
+    padding-right: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    text-decoration: none;
+}
+
+.detScript li a {
+    text-decoration: none; /* This removes the Underline for the links */
+    color: white;
+    font-weight: bold;
+}
+/* DETAILED DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* FEEDBACK & GROUP REFLECTION START --------------------------------------------------------------------------------------------------------*/
+
+/* FEEDBACK & GROUP REFLECTION END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/* MEETINGS START --------------------------------------------------------------------------------------------------------*/
+
+/* MEETINGS END --------------------------------------------------------------------------------------------------------*/
+
+
+
+/*FOOTER --------------------------------------------------------------------------------------------------------*/
+footer {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
