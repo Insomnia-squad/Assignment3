@@ -10,36 +10,36 @@ body {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 20pt;
     font-weight: bold;
 }
 
 h3{
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: bold;
 }
 
 p {
-    font-size: 14px;
+    font-size: 14pt;
 }
 
 /* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
 header {
     width: 100%;
-    padding: 5px;
+    padding: 5pt;
     color: black;
     background-image: url("https://cdn.discordapp.com/attachments/696928792916131910/716275699991969923/pattern.png");
     text-align: center;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 35pt;
 }
 nav {
     background: #2B2B29;
     color: white;
     overflow: hidden;
-    border-radius: 5px; /*This gives containers the cool, smooth rounded effect*/
+    border-radius: 5pt; /*This gives containers the cool, smooth rounded effect*/
 }
 
 nav li {
@@ -51,7 +51,7 @@ nav li a {
     color: white;
     text-decoration: none;
     background: #2B2B29;
-    padding: 15px 50px;
+    padding: 15pt 25pt;
     display: block;
 }
 
@@ -60,7 +60,7 @@ nav li a {
 nav li a:hover {
     background: #EDF3F2;
     color: black;
-    border-radius: 5px;
+    border-radius: 5pt;
 }
 
 
@@ -69,7 +69,7 @@ nav ul {
     margin: 0;
     padding: 0;
     background-color: #2B2B29;
-    font-size: 15px;
+    font-size: 15pt;
     font-weight: bolder;
 
 }
@@ -80,7 +80,7 @@ nav ul {
 .dropdown {
     background-color: #EDF3F2;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 5pt;
 }
 
 /*Hiding the dropdown box as default*/
@@ -88,31 +88,31 @@ nav ul {
     display: none;
     position: absolute;
     background-color: #EDF3F2;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160pt;
+    box-shadow: 0pt 8pt 16pt 0pt rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 /*The actual dropdown box/list*/
 .dropdown-content ul {
     position: absolute;
-    padding: 10px;
+    padding: 10pt;
     background-color: #EDF3F2;
-    border-radius: 5px;
+    border-radius: 5pt;
 }
 
 /*The individual contents within the dropdown*/
 .dropdown-content ul a {
     color: black;
     background-color: #EDF3F2;
-    border-radius: 5px;
+    border-radius: 5pt;
 
 }
 
 /*Each time a word is hovered over in the dropdown*/
 .dropdown-content a:hover {
     background-color: #2B2B29;
-    border-radius: 5px;
+    border-radius: 5pt;
     color: white;
 }
 
@@ -159,21 +159,21 @@ nav ul {
 /* DETAILED DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
 .detScript h2, .detScript h3, .detScript ul {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
 }
 
 .detScript ul {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 40pt;
+    padding-bottom: 40pt;
     text-decoration: none;
 }
 
 .detScript li {
     padding-left:  25%;
     padding-right: 25%;
-    padding-top: 15px;
-    padding-bottom: 15px; 
+    padding-top: 15pt;
+    padding-bottom: 15pt; 
     text-decoration: none;
 }
 
@@ -204,6 +204,6 @@ footer {
     color: white;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
 }
