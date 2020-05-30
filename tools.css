@@ -135,12 +135,12 @@ nav ul {
 /* TOOLS START --------------------------------------------------------------------------------------------------------*/
 .toolScript h2, .toolScript h3 {
     text-align: center;
-    margin-top: 30pt;
+    margin-top: 10pt;
     margin-bottom: 30pt;
 }
 
 .toolScript p {
-    padding-top: 40pt;
+    padding-top: 5pt;
     padding-bottom: 40pt;
     text-decoration: none;
    }
