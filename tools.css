@@ -133,27 +133,37 @@ nav ul {
 
 
 /* TOOLS START --------------------------------------------------------------------------------------------------------*/
-.toolScript h2, .toolScript h3 {
+.toolScript h2 {
     text-align: center;
     margin-top: 10pt;
     margin-bottom: 30pt;
+    padding-top: 50pt;
+ 
 }
+
+.toolScript h3 {
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 30pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+}
+
 
 .toolScript p {
     padding-top: 5pt;
     padding-bottom: 40pt;
     text-decoration: none;
-   }
+    }
 
 .button {
   background-color:  darkorange; 
   color: white;
-  padding: 15px 36px;
+  padding: 15px 35px;
   text-align: center;
 
   font-size: 16px;
-  
-}
+  }
 
 /* TOOLS END --------------------------------------------------------------------------------------------------------*/
 
