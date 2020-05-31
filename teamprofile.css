@@ -20,9 +20,9 @@ h3{
 p {
     font-size: 14pt;
     text-align: left;
+    line height: 1.5;
 }
 
-/* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
 header {
     width: 100%;
     padding: 5pt;
@@ -113,7 +113,7 @@ nav ul {
     background-color: #EDF3F2;
     color: white;
 }
-/* HEADER + NAV BAR END --------------------------------------------------------------------------------------------------------*/
+
 
 .detScript h2, .detScript h3, .detScript ul {
     text-align: center;
