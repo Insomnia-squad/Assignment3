@@ -23,6 +23,11 @@ p {
     font-size: 14pt;
 }
 
+para {
+    padding-bottom: 20pt;
+}
+    
+
 /* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
 header {
     width: 100%;
