@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #2B2B29;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 1.45;
+}
+
+
+header {
+    width: 100%;
+    padding: 5pt;
+    color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/696928792916131910/716275699991969923/pattern.png");
+    text-align: center;
+}
+
+h1 {
+    font-size: 35pt;
+}
+nav {
+    background: #2B2B29;
+    color: white;
+    overflow: hidden;
+    border-radius: 5pt;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    background: #2B2B29;
+    padding: 15pt 25pt;
+    display: block;
+}
+
+
+
+nav li a:hover {
+    background: #EDF3F2;
+    color: black;
+    border-radius: 5pt;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2B2B29;
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+
+.dropdown {
+    background-color: #EDF3F2;
+    display: inline-block;
+    border-radius: 5pt;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EDF3F2;
+    min-width: 160pt;
+    box-shadow: 0pt 8pt 16pt 0pt rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content ul {
+    position: absolute;
+    padding: 10pt;
+    background-color: #EDF3F2;
+    border-radius: 5pt;
+}
+
+
+.dropdown-content ul a {
+    color: black;
+    background-color: #EDF3F2;
+    border-radius: 5pt;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #2B2B29;
+    border-radius: 5pt;
+    color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #EDF3F2;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+}
