@@ -21,10 +21,7 @@ h3{
 
 p {
     font-size: 14pt;
-}
-
-
-    
+}   
 
 /* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
 header {
@@ -142,6 +139,9 @@ nav ul {
 
 
 /* PROJECT DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
+.subheading {
+    padding-top: 35pt;
+}
 .para {
     padding-bottom: 20pt;
 }
