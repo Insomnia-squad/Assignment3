@@ -23,9 +23,7 @@ p {
     font-size: 14pt;
 }
 
-para {
-    padding-bottom: 20pt;
-}
+
     
 
 /* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
@@ -144,6 +142,15 @@ nav ul {
 
 
 /* PROJECT DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
+.para {
+    padding-bottom: 20pt;
+}
+.projectdescription {
+    margin-right:15%;
+    margin-left: 15%;
+    margin-top:5%;
+    text-align: center;
+}
 
 /* PROJECT DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
 
@@ -162,31 +169,7 @@ nav ul {
 
 
 /* DETAILED DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
-.detScript h2, .detScript h3, .detScript ul {
-    text-align: center;
-    margin-top: 30pt;
-    margin-bottom: 30pt;
-}
 
-.detScript ul {
-    padding-top: 40pt;
-    padding-bottom: 40pt;
-    text-decoration: none;
-}
-
-.detScript li {
-    padding-left:  25%;
-    padding-right: 25%;
-    padding-top: 15pt;
-    padding-bottom: 15pt; 
-    text-decoration: none;
-}
-
-.detScript li a {
-    text-decoration: none; /* This removes the Underline for the links */
-    color: white;
-    font-weight: bold;
-}
 /* DETAILED DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
 
 
