@@ -208,8 +208,8 @@ nav ul {
     padding-bottom: 20pt;
 }
 .projectdescription {
-    margin-right:20%;
-    margin-left: 20%;
+    margin-right:15%;
+    margin-left: 15%;
     margin-top:5%;
     text-align: center;
 }
@@ -226,6 +226,10 @@ nav ul {
     padding: 10pt;
     margin-left:25%;
     margin-right:25%;
+}
+
+.ProIdeScript h4 {
+    text-align: center;
 }
 
 /* PROJECT IDEAS END --------------------------------------------------------------------------------------------------------*/
