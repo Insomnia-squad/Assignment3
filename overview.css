@@ -152,7 +152,7 @@ nav ul {
 
 /* OVERVIEW START --------------------------------------------------------------------------------------------------------*/
 .overscript h2, .overscript h3 {
-    text-align: left;
+    text-align: center;
     margin-top: 30pt;
     margin-bottom: 30pt;
     margin-left: 50pt;
@@ -160,7 +160,7 @@ nav ul {
 }
 
 .overscript p {
-  text-align: left;
+  text-align: center;
   margin-top: 30pt;
   margin-bottom: 30pt;
   margin-left: 50pt;
