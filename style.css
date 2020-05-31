@@ -1,6 +1,3 @@
-/*UNIVERSAL THINGS GO ON TOP, then specific to your pages go in the titled sections :D*/
-/*The universal area here is just to keep our websites consistent*/
-
 body {
     margin: 0;
     font-family: monospace;
@@ -19,10 +16,23 @@ h3{
     font-weight: bold;
 }
 
-p {
-    font-size: 14pt;
+h4 {
+    text-align: left;
 }
 
+p, h4 {
+    font-size: 14pt;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p {
+    line-height: 1.45;
+}
+
+.italic {
+    font-style: italic;
+}
 /* HEADER + NAV BAR (please try not to change anything) --------------------------------------------------------------------------------------------------------*/
 header {
     width: 100%;
@@ -127,18 +137,76 @@ nav ul {
 
 
 /* TEAM PROFILE START --------------------------------------------------------------------------------------------------------*/
+.teamprofile h1 {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
 
+.teamprofile h2, h3 {
+    text-align: center;
+}
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200pt;
+}
 /* TEAM PROFILE END --------------------------------------------------------------------------------------------------------*/
 
 
 
 /* TOOLS START --------------------------------------------------------------------------------------------------------*/
+.toolScript h2 {
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 30pt;
+    padding-top: 50pt;
+ 
+}
+
+.toolScript h3 {
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 30pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+}
+
+
+.toolScript p {
+    padding-top: 5pt;
+    padding-bottom: 40pt;
+    text-decoration: none;
+    }
+
+.button {
+  background-color:  darkorange; 
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+
+  font-size: 16px;
+  }
 
 /* TOOLS END --------------------------------------------------------------------------------------------------------*/
 
 
 
 /* PROJECT DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
+.subheading {
+    padding-top: 35pt;
+}
+.para {
+    padding-bottom: 20pt;
+}
+.projectdescription {
+    margin-right:15%;
+    margin-left: 15%;
+    margin-top:5%;
+    text-align: center;
+}
 
 /* PROJECT DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
 
@@ -146,53 +214,152 @@ nav ul {
 
 /* PROJECT IDEAS START --------------------------------------------------------------------------------------------------------*/
 
+.ProIdeScript p {
+    padding: 10pt;
+    margin-left:25%;
+    margin-right:25%;
+}
+
 /* PROJECT IDEAS END --------------------------------------------------------------------------------------------------------*/
 
 
 
 /* OVERVIEW START --------------------------------------------------------------------------------------------------------*/
+.overscript h2, .overscript h3 {
+    text-align: left;
+    margin-top: 30pt;
+    margin-bottom: 30pt;  
+}
+
+.overscript p {
+  text-align: left;
+  margin-top: 30pt;
+  margin-bottom: 30pt;
+}
+
+.overview {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
 
 /* OVERVIEW END --------------------------------------------------------------------------------------------------------*/
 
 
 
 /* DETAILED DESCRIPTION START --------------------------------------------------------------------------------------------------------*/
-.detScript h2, .detScript h3, .detScript ul {
+
+.detScript h2, .detScript h4, .detScript ul {
     text-align: center;
-    margin-top: 30pt;
-    margin-bottom: 30pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
 }
 
 .detScript ul {
-    padding-top: 40pt;
-    padding-bottom: 40pt;
+    padding-top: 20pt;
+    padding-bottom: 29pt;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .detScript li {
-    padding-left:  25%;
+    padding-left:  21.5%;
     padding-right: 25%;
-    padding-top: 15pt;
-    padding-bottom: 15pt; 
+    padding-top: 12pt;
+    padding-bottom: 12pt; 
     text-decoration: none;
+    text-align: center;
 }
 
 .detScript li a {
     text-decoration: none; /* This removes the Underline for the links */
     color: white;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 15pt
 }
+
+.sjlist li {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#sjheading {
+    text-align: left;
+    
+}
+
+.risksub {
+    text-align: left;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.ToolTechList ul li{
+    text-align: left;
+    margin-top: 5pt;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 12pt;
+}
+
+.tftable table th {
+    border: 2pt solid #EDF3F2;
+    padding: 2pt;
+    
+}
+
+
+.tftable table  {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 /* DETAILED DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
 
 
 
 /* FEEDBACK & GROUP REFLECTION START --------------------------------------------------------------------------------------------------------*/
 
+.groupreflection {
+    line-height: 1.6pt;
+    text-align: center;
+}
+
 /* FEEDBACK & GROUP REFLECTION END --------------------------------------------------------------------------------------------------------*/
 
 
 
 /* MEETINGS START --------------------------------------------------------------------------------------------------------*/
+
+.meetings {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.meetings h2 {
+    text-align: center;
+}
+
+.meetings table {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.meetings td a {
+    text-decoration: none; 
+    color: white;
+    font-weight: 500;
+    font-size: 15pt
+}
+
+.meetings table th, tr, td {
+    border: 2pt solid #EDF3F2;
+    padding: 2pt;
+    font-size: 15pt;
+}
 
 /* MEETINGS END --------------------------------------------------------------------------------------------------------*/
 
