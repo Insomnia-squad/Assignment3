@@ -147,11 +147,17 @@ nav ul {
     text-align: center;
 }
 
+
+
 .picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 200pt;
+}
+
+.big {
+    font-size: 14pt;
 }
 /* TEAM PROFILE END --------------------------------------------------------------------------------------------------------*/
 
@@ -202,11 +208,13 @@ nav ul {
     padding-bottom: 20pt;
 }
 .projectdescription {
-    margin-right:15%;
-    margin-left: 15%;
+    margin-right:20%;
+    margin-left: 20%;
     margin-top:5%;
     text-align: center;
 }
+
+
 
 /* PROJECT DESCRIPTION END --------------------------------------------------------------------------------------------------------*/
 
@@ -226,7 +234,7 @@ nav ul {
 
 /* OVERVIEW START --------------------------------------------------------------------------------------------------------*/
 .overscript h2, .overscript h3 {
-    text-align: left;
+    text-align: center;
     margin-top: 30pt;
     margin-bottom: 30pt;  
 }
@@ -324,12 +332,16 @@ nav ul {
 .groupreflection {
     line-height: 1.6pt;
     text-align: center;
+    font-size: 10pt;
 }
 
+.grouprefection p, h3 {
+    padding: 30pt;
+}
 /* FEEDBACK & GROUP REFLECTION END --------------------------------------------------------------------------------------------------------*/
 
 
-
+    
 /* MEETINGS START --------------------------------------------------------------------------------------------------------*/
 
 .meetings {
@@ -352,12 +364,12 @@ nav ul {
     text-decoration: none; 
     color: white;
     font-weight: 500;
-    font-size: 15pt
+    font-size: 10pt
 }
 
 .meetings table th, tr, td {
     border: 2pt solid #EDF3F2;
-    padding: 2pt;
+    padding: 5pt;
     font-size: 15pt;
 }
 
